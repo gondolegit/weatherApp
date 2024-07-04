@@ -248,7 +248,7 @@ class _DetailPageState extends State<DetailPage> {
                                             width: 10,
                                           ),
                                           Text(
-                                            'High/Low',
+                                            'Tinggi/Rendah',
                                             style: TextStyle(
                                               color: isDarkMode == true
                                                   ? Colors.white
@@ -288,7 +288,7 @@ class _DetailPageState extends State<DetailPage> {
                                           const SizedBox(
                                             width: 10,
                                           ),
-                                          Text('Wind',
+                                          Text('Angin',
                                               style: TextStyle(
                                                 color: isDarkMode == true
                                                     ? Colors.white
@@ -327,7 +327,7 @@ class _DetailPageState extends State<DetailPage> {
                                           const SizedBox(
                                             width: 10,
                                           ),
-                                          Text('Humidity',
+                                          Text('Kelembaban',
                                               style: TextStyle(
                                                 color: isDarkMode == true
                                                     ? Colors.white
@@ -367,7 +367,7 @@ class _DetailPageState extends State<DetailPage> {
                                           const SizedBox(
                                             width: 10,
                                           ),
-                                          Text('Pressure',
+                                          Text('Tekanan',
                                               style: TextStyle(
                                                 color: isDarkMode == true
                                                     ? Colors.white
@@ -407,7 +407,7 @@ class _DetailPageState extends State<DetailPage> {
                                           const SizedBox(
                                             width: 10,
                                           ),
-                                          Text('Visibility',
+                                          Text('Visibilitas',
                                               style: TextStyle(
                                                 color: isDarkMode == true
                                                     ? Colors.white

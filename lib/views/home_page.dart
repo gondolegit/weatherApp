@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.w600,
                         color: Colors.white),
                     decoration: InputDecoration(
-                      hintText: 'Search city',
+                      hintText: 'Cari Kota',
                       hintStyle: TextStyle(
                         fontSize: 18,
                         color: Colors.white.withOpacity(0.7),
@@ -113,60 +113,6 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-            drawer: Drawer(
-                shadowColor: Color.fromARGB(255, 93, 93, 93),
-                elevation: 7.0,
-                backgroundColor:
-                    isDarkMode == true ? Colors.black : Colors.white,
-                child: Padding(
-                    padding: const EdgeInsets.only(top: 50, left: 10),
-                    child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          ListTile(
-                              title: Column(
-                            children: [
-                              Image(
-                                image: const AssetImage(
-                                    'images/weather-forecast.png'),
-                                width: MediaQuery.of(context).size.width * 0.30,
-                              ),
-                              const Text("Weather",
-                                  style: TextStyle(fontSize: 30)),
-                              Divider(
-                                color: isDarkMode == true
-                                    ? Color.fromARGB(255, 93, 93, 93)
-                                    : Colors.black,
-                              ),
-                            ],
-                          )),
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Divider(
-                                color: isDarkMode == true
-                                    ? Color.fromARGB(255, 93, 93, 93)
-                                    : Colors.black,
-                              ),
-                              ListTile(
-                                  onTap: () =>
-                                      Navigator.pushNamed(context, '/settings'),
-                                  title: const Row(
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    children: [
-                                      Icon(Icons.settings),
-                                      SizedBox(
-                                        width: 10,
-                                      ),
-                                      Text("Settings",
-                                          style: TextStyle(fontSize: 20)),
-                                    ],
-                                  ))
-                            ],
-                          )
-                        ]))),
             floatingActionButton: FloatingActionButton(
               tooltip: 'Settings',
               onPressed: () {
