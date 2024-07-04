@@ -1,6 +1,6 @@
 **TB Project Praktikum Pemrograman Mobile**
 
-**Kelompok 5**
+**Kelompok 5 :**
 
 Fairuz Akhdan 
 
