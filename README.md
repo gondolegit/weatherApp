@@ -1,10 +1,10 @@
-**APP CUACA**
+**App Cuaca**
 
 **TB Project Praktikum Pemrograman Mobile**
 
 **Kelompok 5 :**
 
-Fairuz Akhdan 
+Fairuz Akhdan 2106051
 
 Sita Sri Andari 2106050
 
